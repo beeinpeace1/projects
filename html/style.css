@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    background: #eee;
+}
+
+.main {
+    background: #fff;
+    height: 100vh;
+    width: 960px;
+    margin: 0 auto;
+}
+

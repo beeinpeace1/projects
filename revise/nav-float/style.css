@@ -1,0 +1,49 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} RESET DEFAULT BROSWER STYLES*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    background: red;
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    background: #333;
+    color: white;
+}
+
+.navbar::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+.navinside {
+    display: inline;
+    padding: 15px 10px;
+}
+
+.navinside span{
+    padding: 0px 10px;
+}
+
+.navinside span:hover{
+    background: #666;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}

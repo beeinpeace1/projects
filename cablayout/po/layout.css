@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    height: 220px;
+    background: #fff;
+    padding: 0 auto;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 2px 5px 5px 5px #888888;
+}
+
+.topbar{
+    width: inherit;
+    height:50px;
+    background: #fff;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-start;
+    border-bottom: 1px solid grey;
+    font-size: 12px;
+}
+
+.iconbar span, .topbar span{
+    padding: 15px 40px;
+    margin: auto;
+    display: inline;
+} 
+
+ .iconbar{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color: black;
+    margin-top: -95px;
+    display: flex;
+    justify-items: center;    
+    flex-direction: row;
+    font-size: 10px;
+    text-align: center;
+    border-top: 1px solid #888888;
+
+    
+} 
+
+.container .image{
+    width: 50px;
+    height: 50px;
+    left: 260px;
+    background: grey;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    right: 100px;
+    border-radius: 50%;
+
+}
+
+
+.container .car{
+    width: 50px;
+    height: 50px;
+    background: grey;
+    display: block;
+    position: relative;
+    left: 20px;
+    top: -10px;
+
+}
+
+.container .otp{
+    width: 45px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    background: yellow;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .vehicle{
+    width: 150px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+.container .license{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    left: 70px;
+    top: -100px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.container .star{
+    width: 45px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    top: -55px;
+    left: 380px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .name{
+    width: 45px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    top: -55px;
+    left: 370px;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
+}

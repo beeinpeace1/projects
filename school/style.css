@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("i8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(10%);
+}
+
+#sidebar {
+    width: 180px;
+    height: 90%;
+    background: #000;
+    position: fixed;
+    left: -200px;
+    transition: all 300ms ease-in-out;
+    opacity: .6;
+    
+}
+
+#sidebar.active{
+    left: 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 2px solid #909090;
+    border-radius: 10px;
+    color: white;  
+    font-family: fantasy; 
+    display: inline-block;
+}
+
+#sidebar ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#sidebar ul li a:hover{
+    background: #909090;
+}
+
+#sidebar .togglebar{
+    position: absolute;
+    left: 215px;
+    top: 10px;
+}
+
+#sidebar .togglebar span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #000;
+    margin: 5px 0;  
+    border-radius: 5px;
+    
+}
+
+#quote{
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #000;
+    opacity: .6;
+    color: white;
+    text-align: center;
+    float: right;
+    font-style: italic;
+    font-size: 80%;
+    font-family: fantasy;
+
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    opacity: .8;
+    bottom: 0;
+    position: fixed;
+    background: #000;
+    color: white;
+    text-align: center;
+    
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+        position:absolute;
+        list-style:none;
+        width:20%;
+        text-align:center;
+}
+
+.circle{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.circle1{
+    background: #f00;
+}

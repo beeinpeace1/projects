@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    background: #eee;
+    padding: 40px;
+}
+
+.main {
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    height: 480px;
+}
+
+#points {
+    padding: 20px;
+}
+
+.tiles {
+    padding: 10px;
+    background: #222;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 6px;
+}
+
+.tiles > div {
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    transition: .3s;
+}
